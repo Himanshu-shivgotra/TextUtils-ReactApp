@@ -51,7 +51,7 @@ function App() {
             <Route exact path='/about'>
               <About mode={mode} />
             </Route>
-            <Route exact path='/'>
+            <Route path='/'>
               <TextForm heading="TextUtils - Word Counter, Character Counter, Remove extra spaces." showAlert={showAlert} mode={mode} />
             </Route>
           </Switch>
